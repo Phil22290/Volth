@@ -1,7 +1,7 @@
 import React, {useState } from 'react'
 import { FaBars, FaTimes } from "react-icons/fa"
 import { IconContext } from "react-icons/lib"
-import { Nav, NavbarContainer, NavLogo, NavIcon, MobileIcon, NavItem, NavLinks, NavMenu } from "./NavbarElements"
+import { Nav, NavbarContainer, NavLogo, MobileIcon, NavItem, NavLinks, NavMenu } from "./NavbarElements"
 
 
 const Navbar = () => {
@@ -23,14 +23,15 @@ const Navbar = () => {
     //     window.addEventListener("scroll", changeNav)
     // }, [])
 
+
     return (
         <>
             <IconContext.Provider value={{color:"#141414"}}>
                 <Nav click={click}>
                     <NavbarContainer>
                         <NavLogo to="/">
-                            <NavIcon />
                             VOLTH
+                            
                         </NavLogo>
                         <MobileIcon onClick={handleClick}>
                             {click ? <FaTimes /> : <FaBars />}

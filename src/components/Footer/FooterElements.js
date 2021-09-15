@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { Link } from 'gatsby'
-import { GiElectric } from "react-icons/Gi"
+
 
 export const FooterContainer = styled.div`
   background-color: #101522;
@@ -36,10 +36,6 @@ export const SocialLogo = styled(Link)`
   display: flex;
   align-items: center;
   margin-bottom: 16px;
-`
-
-export const SocialIcon = styled(GiElectric)`
-  margin-right: 10px;
 `
 
 export const WebsiteRights = styled.small`
