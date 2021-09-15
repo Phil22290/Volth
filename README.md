@@ -1,7 +1,3 @@
-# 🚀 EXPLOR
+This project served as an early exercise for developing with **React**, using **Gatsby** (and **GraphQL**) as a Static Site Generator for the Gallery. It was also deployed on [Netlify](https://volthbikes.netlify.app). 
 
-This react website using Gatsby JS. The project is responsive and use Gatsby Image.
-
-It uses Graphql to query data to display the images.
-
-Video: [React Website Using Gatsby JS Tutorial](https://www.youtube.com/watch?v=ThzUUdIVr_I)
+The main goal was to get the hang of **Gatsby** and practice React in the meantime. 
